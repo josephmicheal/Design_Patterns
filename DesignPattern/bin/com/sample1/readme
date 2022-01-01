@@ -1,0 +1,29 @@
+https://refactoring.guru/design-patterns/adapter/java/example
+
+ Problem
+Imagine that you’re creating a stock market monitoring app. The app downloads the stock data from multiple sources in XML format and then displays nice-looking charts and diagrams for the user.
+
+At some point, you decide to improve the app by integrating a smart 3rd-party analytics library. But there’s a catch: the analytics library only works with data in JSON format.
+
+Adapters can not only convert data into various formats but can also help objects with different interfaces collaborate. Here’s how it works:
+
+The adapter gets an interface, compatible with one of the existing objects.
+Using this interface, the existing object can safely call the adapter’s methods.
+Upon receiving a call, the adapter passes the request to the second object, but in a format and order that the second object expects.
+
+
+Usage examples: The Adapter pattern 
+
+
+
+is pretty common in Java code. It’s very often used in systems based on some legacy code. In such cases, Adapters make legacy code work with modern classes.
+
+There are some standard Adapters in Java core libraries:
+
+java.util.Arrays#asList()
+java.util.Collections#list()
+java.util.Collections#enumeration()
+java.io.InputStreamReader(InputStream) (returns a Reader object)
+java.io.OutputStreamWriter(OutputStream) (returns a Writer object)
+javax.xml.bind.annotation.adapters.XmlAdapter#marshal() and #unmarshal()
+Identification: Adapter is recognizable by a constructor which takes an instance of a different abstract/interface type. When the adapter receives a call to any of its methods, it translates parameters to the appropriate format and then directs the call to one or several methods of the wrapped object.
