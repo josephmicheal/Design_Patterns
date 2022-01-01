@@ -1,5 +1,6 @@
 https://refactoring.guru/design-patterns/adapter/java/example
 
+
  Problem
 Imagine that you’re creating a stock market monitoring app. The app downloads the stock data from multiple sources in XML format and then displays nice-looking charts and diagrams for the user.
 
@@ -11,6 +12,12 @@ The adapter gets an interface, compatible with one of the existing objects.
 Using this interface, the existing object can safely call the adapter’s methods.
 Upon receiving a call, the adapter passes the request to the second object, but in a format and order that the second object expects.
 
+*******************************************************
+
+When consumer and producer are not compatible then Adapter pattern helps.
+This solution will not affect consumer and producer as it is differnt class.
+
+*******************************************************
 
 Usage examples: The Adapter pattern 
 

@@ -1,4 +1,4 @@
-package com.sample1;
+package com.adapter;
 
 import java.nio.charset.StandardCharsets;
 

@@ -1,4 +1,4 @@
-package com.sample1;
+package com.adapter;
 
 
 //https://www.youtube.com/watch?v=4j5_vLEhrkM
