@@ -1,4 +1,4 @@
-package com.creational.adapter;
+package com.structural.adapter;
 
 
 //https://www.youtube.com/watch?v=4j5_vLEhrkM
