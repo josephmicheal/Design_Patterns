@@ -1,4 +1,4 @@
-package com.singleton;
+package com.creational.singleton;
 
 public class LazyThreadSafeSingleton {
 	private static LazyThreadSafeSingleton instance = null;

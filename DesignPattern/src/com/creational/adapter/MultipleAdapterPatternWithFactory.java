@@ -1,4 +1,4 @@
-package com.adapter;
+package com.creational.adapter;
 
 import java.nio.charset.StandardCharsets;
 

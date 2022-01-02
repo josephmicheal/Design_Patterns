@@ -1,4 +1,4 @@
-package com.singleton;
+package com.creational.singleton;
 
 public class LazySingleton {
 	private static LazySingleton instance = null;

@@ -1,4 +1,4 @@
-package com.factory;
+package com.creational.factory;
 
 public class AbstractFactoryApp {
 	

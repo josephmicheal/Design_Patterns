@@ -1,4 +1,4 @@
-package com.builder;
+package com.creational.builder;
 public class User
 {
 	//All final attributes
