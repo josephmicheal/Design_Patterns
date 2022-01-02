@@ -1,0 +1,8 @@
+Bridge is a structural design pattern that lets you split a large class or a set of closely related classes 
+into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
+
+
+The Bridge pattern attempts to solve this problem by switching from inheritance to the object composition. 
+
+Bridge, State, Strategy (and to some degree Adapter) have very similar structures. 
+Indeed, all of these patterns are based on composition, which is delegating work to other objects. However, they all solve different problems.
