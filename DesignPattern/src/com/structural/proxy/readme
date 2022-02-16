@@ -1,0 +1,8 @@
+Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object. 
+A proxy controls access to the original object, allowing you to perform something either before 
+or after the request gets through to the original object.
+
+
+Why would you want to control access to an object? Here is an example: 
+you have a massive object that consumes a vast amount of system resources. 
+You need it from time to time, but not always.
