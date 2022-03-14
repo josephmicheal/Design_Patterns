@@ -15,7 +15,7 @@ public class BridgeDesignPatternApp {
         basicRemote.channelUp();
         device.printStatus();
 
-        System.out.println("Tests with advanced remote.");
+        System.out.println("Tests with adv  anced remote.");
         AdvancedRemote advancedRemote = new AdvancedRemote(device);
         advancedRemote.power();
         advancedRemote.mute();

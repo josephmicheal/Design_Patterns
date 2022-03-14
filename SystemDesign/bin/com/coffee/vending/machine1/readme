@@ -1,0 +1,25 @@
+
+Menu has Drink and all Ingredients
+Stock and Price should be show for Menu
+Each drink is combination of multiple ingredients
+If stock not available show in message else provide option to refill
+
+
+Approach:
+
+Drinks is combination of ingredients both have price and stock
+	> we can use Decorator design pattern
+	> Drink id,name, List of Ingredients * quantity
+	
+Cache to hold the data of stock with max capacity
+	> Sugar 100
+	> Coffee 100
+	> cream 100
+
+
+Refill
+	> check all items if not fill then refill
+
+findIngrdeintOfItem(Item code)
+
+

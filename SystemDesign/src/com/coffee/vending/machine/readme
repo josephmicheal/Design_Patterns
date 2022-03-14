@@ -1,0 +1,40 @@
+https://codereview.stackexchange.com/questions/83195/designing-another-coffee-machine-application?rq=1
+
+
+Ingredient: Cocoa / Stock: 10 / Cost: 0.90
+Ingredient: Coffee / Stock: 10 / Cost: 0.75
+Ingredient: Cream / Stock: 10 / Cost: 0.25
+Ingredient: Decaf Coffee / Stock: 10 / Cost: 0.75
+Ingredient: Espresso / Stock: 10 / Cost: 1.10
+Ingredient: Foamed Milk / Stock: 10 / Cost: 0.35
+Ingredient: Steamed Milk / Stock: 10 / Cost: 0.35
+Ingredient: Sugar / Stock: 10 / Cost: 0.25
+Ingredient: Whipped Cream / Stock: 10 / Cost: 1.00
+
+1. Drink: Caffe Americano / Cost: 3.30
+2. Drink: Caffe Latte / Cost: 2.55
+3. Drink: Caffe Mocha / Cost: 3.35
+4. Drink: Cappuccino / Cost: 2.90
+5. Drink: Coffee / Cost: 2.75
+6. Drink: Decaf Coffee / Cost: 2.75
+
+Dispensing: 1
+
+Ingredient: Cocoa / Stock: 10 / Cost: 0.90
+Ingredient: Coffee / Stock: 10 / Cost: 0.75
+Ingredient: Cream / Stock: 10 / Cost: 0.25
+Ingredient: Decaf Coffee / Stock: 10 / Cost: 0.75
+Ingredient: Espresso / Stock: 7 / Cost: 1.10
+Ingredient: Foamed Milk / Stock: 10 / Cost: 0.35
+Ingredient: Steamed Milk / Stock: 10 / Cost: 0.35
+Ingredient: Sugar / Stock: 10 / Cost: 0.25
+Ingredient: Whipped Cream / Stock: 10 / Cost: 1.00
+
+1. Drink: Caffe Americano / Cost: 3.30
+2. Drink: Caffe Latte / Cost: 2.55
+3. Drink: Caffe Mocha / Cost: 3.35
+4. Drink: Cappuccino / Cost: 2.90
+5. Drink: Coffee / Cost: 2.75
+6. Drink: Decaf Coffee / Cost: 2.75
+
+Dispensing: Exception in thread "main" 
